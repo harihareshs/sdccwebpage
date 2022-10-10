@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaanIyangi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/psg_itech_logo.png" alt=""></a>
+            <div class="nav-links" id="navMenu">
+                <i class="material-symbols-outlined" onclick="hide_menu()">
+                    close
+                </i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">TEAM</a></li>
+                    <li><a href="">ACHIEVEMENTS</a></li>
+                    <li><a href="">SPONSORS</a></li>
+                    <li><a href="">CAREER</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick=show_menu()>
+                menu
+            </span>
+
+        </nav>
+        <h1>Career!</h1>
+    </section>
+
+<!-------------career and contact us------------->
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="home"><span class="material-symbols-outlined">
+                    home
+                    </span></i>
+            </div>
+        </div>
+        <div class="contact-col"></div>
+
+    </div>
+</section>
+
+
+<!-------------footer------------->
+<section class="footer">
+    <h4>About US - footer</h4>
+    <p> a random text adjsnfjdabfb  fbhdav adbv <br> iabduovh oisvb uovabuc b</p>
+    <div class="icons">
+        <i class="facebook"><span class="material-symbols-outlined">
+            all_inbox
+            </span></i>
+        <i class="twitter"><span class="material-symbols-outlined">
+            attach_email
+            </span></i>
+        <i class="Linkedin"><span class="material-symbols-outlined">
+            attach_email
+            </span></i>
+        <i class="Instagram"><span class="material-symbols-outlined">
+            attach_email
+            </span></i>
+        <i class="Gmail"><span class="material-symbols-outlined">
+            attach_email
+            </span></i>
+    </div>
+    <p>Made with <i class="heart"><span class="material-symbols-outlined">
+        favorite
+        </span></i> by Team</p>
+</section>
+
+
+<!-------------javascript for toggling------------->
+<script>
+
+    var navMenu=document.getElementById("navMenu");
+    function show_menu(){
+        navMenu.style.right='0';
+    }
+    function hide_menu(){
+        navMenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
